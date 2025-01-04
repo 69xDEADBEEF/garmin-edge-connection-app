@@ -55,9 +55,9 @@ Depends: python3 (>= 3.7),
          bluez, 
          udisks2
 Recommends: blueman
-Maintainer: Your Name <your.email@example.com>
-Description: Garmin Device Connection and FIT File Extractor
- A tool to connect to Garmin Edge devices via Bluetooth or USB
+Maintainer: https://github.com/69xDEADBEEF
+Description: Garmin Edge 1040 Connection and FIT File Extractor
+ A tool to connect to Garmin Edge 1040 devices (and possibly others)  via Bluetooth or USB
  and extract ride data and FIT files.
 EOF
 
@@ -88,3 +88,4 @@ dpkg-deb --build garmin-connection-app
 
 # Clean up
 rm -rf garmin-connection-app
+
